@@ -1,8 +1,8 @@
 import { useState } from "react";
-import FirebaseService from "../services/FirebaseService";
+// import FirebaseService from "../services/FirebaseService";
 // import forms from "../constants/forms";
 import {message} from "antd";
-const endPoint = "http://localhost:3000/_hooks/application"
+const endPoint = "https://paygeon-c5xvv.abstra.app/_hooks/application"
 
 interface AddressInfo{
     address: string,

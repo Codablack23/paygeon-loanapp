@@ -73,7 +73,7 @@ export default function RejectLoanForm(props:Props){
             }
             const body = JSON.stringify(data)
             console.log(body)
-            const query = await fetch("http://localhost:3000/_hooks/reject-application",{
+            const query = await fetch("https://paygeon-c5xvv.abstra.app/_hooks/reject-application",{
                 method: "POST",
                 headers:{
                     "Content-Type": "application/json",

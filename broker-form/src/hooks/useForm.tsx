@@ -35,7 +35,7 @@ export default function useForm(email:string,businessName:string){
         }
         setSubmitLoading(true)
         try {
-            const response = await fetch("http://localhost:3000/_hooks/broker-acceptance",{
+            const response = await fetch("https://paygeon-c5xvv.abstra.app/_hooks/broker-acceptance",{
             method: "POST",
             headers:{
                 "Content-Type": "application/json",
